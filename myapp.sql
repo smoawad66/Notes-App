@@ -44,8 +44,8 @@ INSERT INTO `notes` (`id`, `body`, `user_id`, `pinned`, `updated_at`) VALUES
 (10, 'I am a student at BFCAI.', 5, 1, '2024-06-15 18:36:57'),
 (11, 'I love programming.', 5, 0, '2024-06-15 18:22:45'),
 (12, 'This is my first note.', 6, 0, '2024-06-15 18:22:45'),
-(13, 'Great one.', 6, 0, '2024-06-15 18:22:45'),
-(14, 'aajdagavasavshcscxahss\r\n', 12, 0, '2024-06-15 18:22:45'),
+(13, 'Test.', 6, 0, '2024-06-15 18:22:45'),
+(14, 'aajdagavasavsahss\r\n', 12, 0, '2024-06-15 18:22:45'),
 (16, '#include <iostream>\r\nusing namespace std;\r\nint main (){\r\n    cout<<\"Hello World!\";\r\n    system(\"pause\");\r\n    return 0;\r\n}', 5, 0, '2024-06-15 18:46:09');
 
 --
@@ -78,9 +78,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES
-(5, 'Elsayed Moawad', 'smoawad66@gmail.com', '$2y$10$enlQyqYNgX5jDhy7bcAzGeayezQ5bARfbTvMiKD00nliyewgtiqra'),
+(5, 'Elsayed Moawad', 's014578@gmail.com', '$2y$10$enlQyqYNgX5jDhy7bcAzGeayezQ5bARfbTvMiKD00nliyewgtiqra'),
 (6, 'Mohamed', 'm006@gmail.com', '$2y$10$Za64545Lkt4JM9Ycooe3tu7RO4ujHuLU/K37s2zaR6YR8gfvR/lxu'),
-(7, 'Elsayed Moawad 2', 'elsayed403396@fci.bu.edu.eg', '$2y$10$scWNbnBW7OFm4.CK8VlSp.MSmK7lw2Tl6r8YC.V8Mc5PWhPMu.FpC'),
+(7, 'Elsayed Moawad 2', 'elsayed4096@fci.bu.edu.eg', '$2y$10$scWNbnBW7OFm4.CK8VlSp.MSmK7lw2Tl6r8YC.V8Mc5PWhPMu.FpC'),
 (12, 'Ahmed', 'h1204@outlook.com', '$2y$10$ygSH11t39zElLaYEpcp0heWSLGK7cpTjADi7BM/YQQRRiClJCHxie');
 
 --
