@@ -6,8 +6,8 @@ with the help of reusable Tailwind CSS components.
 
 ## Features
 - Note-taking.
-- Showing, updating and deleting notes.
-- Pinning important notes.
+- Show, update and delete notes.
+- Pin important notes.
 
 ## Installation
 
