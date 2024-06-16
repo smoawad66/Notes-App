@@ -21,4 +21,5 @@ with the help of reusable Tailwind CSS components.
    ```<Directory "D:/path-to-the-project/Notes-App/public">```.
 5. Open xampp control panel and start Apache and MySQL services.
 6. Import the sql file into phpMyAdmin.
-7. Open the localhost (type [localhost](http://127.0.0.1) in the browser).
+7. Open the [localhost](http://127.0.0.1) in the browser.
+8. The application should work correctly.
