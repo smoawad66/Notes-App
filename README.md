@@ -15,8 +15,8 @@ with the help of reusable Tailwind CSS components.
    ```git clone https://github.com/smoawad66/Notes-App.git```.
 2. Open this file ```C:\xampp\apache\conf\httpd.conf```.
 3. Edit the DocumentRoot and Directory to be the path to the public folder contained in the project.
-  <br>Example:<br>
 
+   <br>Example:<br>
    ```DocumentRoot "D:/path-to-the-project/Notes-App/public"``` <br>
    ```<Directory "D:/path-to-the-project/Notes-App/public">```.
 5. Open xampp control panel and start Apache and MySQL services.
