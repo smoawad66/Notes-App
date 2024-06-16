@@ -17,10 +17,9 @@ with the help of reusable Tailwind CSS components.
 ![Screenshot 2024-06-16 115350](https://github.com/smoawad66/Notes-App/assets/93600247/031c6004-82f3-44bb-a3d2-ce8ff89467b0)
 
 
-## For more images to preview [click here](preview/PREVIEW.md).
+## For more images to preview [click here](preview/PREVIEW.md).<br><br>
 
 ## Installation
-
 1. Clone the repository:
    ```git clone https://github.com/smoawad66/Notes-App.git```.
 2. Open this file ```C:\xampp\apache\conf\httpd.conf```.
