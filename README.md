@@ -12,7 +12,8 @@ with the help of reusable Tailwind CSS components.
 - Show, update and delete notes.
 - Pin important notes.
 
-![Screenshot 2024-06-16 115648](https://github.com/smoawad66/Notes-App/assets/93600247/f0fd5dd1-1431-4f0a-a0e2-e16c276c5c57)
+![Screenshot 2024-06-16 115648](https://github.com/smoawad66/Notes-App/assets/93600247/f0fd5dd1-1431-4f0a-a0e2-e16c276c5c57)![Screenshot 2024-06-16 115350](https://github.com/smoawad66/Notes-App/assets/93600247/031c6004-82f3-44bb-a3d2-ce8ff89467b0)
+
 
 ## Installation
 
