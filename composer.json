@@ -1,0 +1,26 @@
+{
+    "name": "elsayed/php0",
+    "authors": [
+        {
+            "name": "Elsayed",
+            "email": "smoawad66@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^10.45"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

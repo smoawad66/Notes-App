@@ -1,0 +1,1 @@
+<pre style="max-height: 300px; overflow: <?= isset($overflow) ? $overflow : 'hidden' ?>; white-space: pre-wrap;"><p style="font-family: sans-serif;" class="text-white break-words"><?= htmlspecialchars($body) ?></p></pre>
