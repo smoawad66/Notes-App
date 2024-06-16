@@ -4,10 +4,15 @@ with the help of reusable Tailwind CSS components.
 
 ![Screenshot 2024-06-16 114915](https://github.com/smoawad66/Notes-App/assets/93600247/c3e08294-812f-41b6-8304-d9ade5b7518c)
 
+![Screenshot 2024-06-16 115247](https://github.com/smoawad66/Notes-App/assets/93600247/adcd00cb-48d1-4932-9d66-8f11cb5b9b43)
+
+
 ## Features
 - Note-taking.
 - Show, update and delete notes.
 - Pin important notes.
+
+![Screenshot 2024-06-16 115648](https://github.com/smoawad66/Notes-App/assets/93600247/f0fd5dd1-1431-4f0a-a0e2-e16c276c5c57)
 
 ## Installation
 
@@ -22,3 +27,5 @@ with the help of reusable Tailwind CSS components.
 6. Import the sql file into phpMyAdmin.
 7. Open the [localhost](http://127.0.0.1) in the browser.
 8. The application should work correctly.
+
+
