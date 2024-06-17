@@ -9,6 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
 </head>
 
-<body class="h-full text-white" style="background-color: #030607;">
-    <div class="min-h-full">
-        <?php partial('navbar.php'); ?>
+<body class="flex flex-col min-h-screen text-white" style="background-color: #030607;">
+    <div class="flex-grow">
+        <?php partial('navbar.php') ?>

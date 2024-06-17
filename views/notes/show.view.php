@@ -11,24 +11,29 @@ require base_path('views/partials/banner.php');
             <a href="/note/edit?id=<?= $note['id'] ?>" class="absolute bottom-4 right-5 bg-yellow-700 text-white rounded py-2 px-4 hover:bg-yellow-800">Edit</a>
 
             <!-- Toggle pin -->
-            <form action="/note" method="POST">
+            <form action="/note" id="pin_form">
                 <input type="hidden" name="_method" value="PATCH">
                 <input type="hidden" name="id" value="<?= $note['id'] ?>">
-                <button class="absolute top-1 right-1" title="<?= $note['pinned'] ? 'Unpin' : 'Pin' ?>">
-                    <?php if ($note['pinned']) : ?>
-                        <p class="absolute right-1 top-1 text-2xl"><i class="bi bi-pin-angle-fill"></i></p>
-                    <?php else : ?>
-                        <p class="absolute right-1 top-1 text-2xl "><i class="bi bi-pin-angle"></i></p>
-                    <?php endif; ?>
-
+                <button id="pin" class="absolute top-1 right-1" title="<?= $note['pinned'] ? 'Unpin' : 'Pin' ?>">
+                    <p class="absolute right-1 top-1 text-2xl">
+                        <?php if ($note['pinned']) : ?>
+                            <i class="bi bi-pin-angle-fill"></i>
+                        <?php else : ?>
+                            <i class="bi bi-pin-angle"></i>
+                        <?php endif; ?>
+                    </p>
                 </button>
+                <input type="hidden" id="status" value="<?= $note['pinned'] ?>">
             </form>
-            
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="js/pin.js"></script>
+
             <!-- Display a note in a <pre> element -->
             <?php partial('pre.php', ['body' => $note['body'], 'overflow' => 'auto']); ?>
-            
+
             <br>
-            
+
             <!-- Delete a note -->
             <form method="POST" action="/note">
                 <input type="hidden" name="_method" value="DELETE">
