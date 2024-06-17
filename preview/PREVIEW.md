@@ -2,11 +2,7 @@
 
 ![Screenshot 2024-06-17 104558](https://github.com/smoawad66/Notes-App/assets/93600247/7452a679-f9b9-41c3-b7ec-a7efc51aac0f)<br>
 
-![Screenshot 2024-06-16 115116](https://github.com/smoawad66/Notes-App/assets/93600247/6f33ac75-57b7-4c08-baf5-bdef14b77947)<br>
-
-![Screenshot 2024-06-16 115159](https://github.com/smoawad66/Notes-App/assets/93600247/35cfd6e3-4820-4693-ac68-d5d069f4eb0d)<br><br>
-
-![Screenshot 2024-06-16 132037](https://github.com/smoawad66/Notes-App/assets/93600247/c50e9a02-f058-45b9-98b3-426bbce5b0d1)<br>
+![Screenshot 2024-06-17 105044](https://github.com/smoawad66/Notes-App/assets/93600247/ef27391b-b66f-4739-a8af-50f3581d26f5)<br>
 
 ![Screenshot 2024-06-16 115350](https://github.com/smoawad66/Notes-App/assets/93600247/1dc31fe1-a5d8-4cb6-94a2-9eb99cab091a)<br>
 
